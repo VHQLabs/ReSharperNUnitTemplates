@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ReSharper.Templates.NUnit</id>
+    <title>NUnit Templates</title>
+    <version>0.0.1-pre</version>
+    <authors>Pavel Samokha (VHQLabs)</authors>
+    <owners>Pavel Samokha (VHQLabs)</owners>
+    <description>A set of 'NUnit' Templates to quickly generate class, method, attributes entries.</description>
+    <projectUrl>https://github.com/vansickle/ReSharper.Templates.NUnit</projectUrl>
+    <iconUrl>http://resharper-plugins.jetbrains.com/Content/Images/packageReSharper.png</iconUrl>
+    <copyright>Copyright &#169; 2013 Pavel Samokha</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="ReSharper" version="8.0" />
+    </dependencies>
+    <tags>resharper templates nunit class test testfixture setup</tags>
+  </metadata>
+  <files>
+    <file src="nunit-templates.dotSettings" target="ReSharper\vAny\settings" />
+  </files>
+</package>
