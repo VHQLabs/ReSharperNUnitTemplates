@@ -7,7 +7,7 @@
     <authors>Pavel Samokha (VHQLabs)</authors>
     <owners>Pavel Samokha (VHQLabs)</owners>
     <description>Collection of NUnit Live and File Templates for Resharper to quickly generate tests</description>
-    <projectUrl>https://github.com/vansickle/ReSharper.Templates.NUnit</projectUrl>
+    <projectUrl>https://github.com/VHQLabs/ReSharperNUnitTemplates</projectUrl>
     <iconUrl>http://resharper-plugins.jetbrains.com/Content/Images/packageReSharper.png</iconUrl>
     <copyright>Copyright &#169; 2013 Pavel Samokha</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -17,6 +17,7 @@
     <tags>resharper templates nunit class test testfixture setup</tags>
   </metadata>
   <files>
-    <file src="nunit-templates.dotSettings" target="ReSharper\vAny\settings" />
+    <file src="nunit-live-templates.dotSettings" target="ReSharper\vAny\settings" />
+    <file src="nunit-file-templates.dotSettings" target="ReSharper\vAny\settings" />
   </files>
 </package>
