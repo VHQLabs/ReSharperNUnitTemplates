@@ -6,7 +6,7 @@
     <version>0.0.1-pre</version>
     <authors>Pavel Samokha (VHQLabs)</authors>
     <owners>Pavel Samokha (VHQLabs)</owners>
-    <description>A set of 'NUnit' Templates to quickly generate class, method, attributes entries.</description>
+    <description>Collection of NUnit Live and File Templates for Resharper to quickly generate tests</description>
     <projectUrl>https://github.com/vansickle/ReSharper.Templates.NUnit</projectUrl>
     <iconUrl>http://resharper-plugins.jetbrains.com/Content/Images/packageReSharper.png</iconUrl>
     <copyright>Copyright &#169; 2013 Pavel Samokha</copyright>

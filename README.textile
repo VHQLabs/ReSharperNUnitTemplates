@@ -1,0 +1,5 @@
+Collection of NUnit Live and File Templates for Resharper to quickly generate tests.
+
+h1. Build package
+
+nuget pack
