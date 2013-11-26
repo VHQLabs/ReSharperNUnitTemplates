@@ -13,3 +13,9 @@ In Visual Studio -> Resharper -> Options -> Extension Manager add that folder as
 choco install NuGet.CommandLine #install nuget commandline via chocolatey
 
 nuget pack -OutputDirectory ..\ExtensionsBuilds
+
+h1. How to push to gallery
+
+nuget setApiKey [api_key_can_be_found_via_web_ui] -Source https://resharper-plugins.jetbrains.com
+nuget push ..\ExtensionsBuilds\ReSharper.Templates.NUnit.[Version]
+.nupkg  -Source https://resharper-plugins.jetbrains.com
