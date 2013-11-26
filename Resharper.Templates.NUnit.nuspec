@@ -3,7 +3,7 @@
   <metadata>
     <id>ReSharper.Templates.NUnit</id>
     <title>NUnit Templates</title>
-    <version>0.0.1-pre</version>
+    <version>0.0.2-pre</version>
     <authors>Pavel Samokha (VHQLabs)</authors>
     <owners>Pavel Samokha (VHQLabs)</owners>
     <description>Collection of NUnit Live and File Templates for Resharper to quickly generate tests</description>

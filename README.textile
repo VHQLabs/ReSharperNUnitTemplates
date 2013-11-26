@@ -1,5 +1,15 @@
 Collection of NUnit Live and File Templates for Resharper to quickly generate tests.
 
-h1. Build package
+h1. Release history
 
-nuget pack
+* 0.0.1 Basic templates
+* 0.0.2 Assertion templates (Thanks Guilherme Morais)
+
+h1. How to build package
+
+cd ReSharperNUnitTemplates
+mkdir ../ExtensionsBuilds #folder for builds
+In Visual Studio -> Resharper -> Options -> Extension Manager add that folder as package source
+choco install NuGet.CommandLine #install nuget commandline via chocolatey
+
+nuget pack -OutputDirectory ..\ExtensionsBuilds
